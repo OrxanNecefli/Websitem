@@ -1,5 +1,5 @@
 $(document).ready(function() {
     $("button").click(function() {
-        $('#demo').css("backgroundColor", "yellow").SlideUp(2000).SlideDown(3000)
+        $('#demo').css("background-color", "yellow").slideUp(2000).slideDown(3000)
     })
-})
+});
