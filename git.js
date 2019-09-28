@@ -1,4 +1,5 @@
-var arry = ["Orxan", "Resul", "Nebi", "Samir", "Qorqud", "Orxan", "Xiyar"];
-document.write(arry + "<br/>");
-var son = arry
-document.write(son);
+$(document).ready(function() {
+    $("button").click(function() {
+        $('#demo').css("backgroundColor", "yellow").SlideUp(2000).SlideDown(3000)
+    })
+})
