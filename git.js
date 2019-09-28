@@ -1,5 +1,8 @@
 $(document).ready(function() {
-    $("button").click(function() {
-        $('#demo').css("background-color", "yellow").slideUp(2000).slideDown(3000)
+    $(".bir").click(function() {
+        $('#demo').css("background-color", "yellow").slideUp(4000).slideDown(4000)
+    });
+    $('.iki').click(function() {
+        $('#demo').stop()
     })
 });
