@@ -1,8 +1,5 @@
 $(document).ready(function() {
-    $(".bir").click(function() {
-        $('#demo').css("background-color", "yellow").slideUp(4000).slideDown(4000)
+    $('.bir').click(function() {
+        alert("metn : " + $("#demo").text())
     });
-    $('.iki').click(function() {
-        $('#demo').stop()
-    })
 });
