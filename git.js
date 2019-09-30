@@ -1,4 +1,6 @@
-var txt = "Salam ORxan Necefli orxan sag deyer";
-var ifade = new RegExp('orxan', 'g');
-var son = ifade.replace("xiyar")
-document.write(son)
+var a = "Javascript dunya uzre ve Azerbaycanda dunya en istifade edilen script dilidir";
+document.write(a + "<br/><br/>");
+var ifade = new RegExp("dunya(?! uzre)");
+var son = ifade.test(a);
+var son1 = a.search(ifade)
+document.write(son + "<br/>" + son1)
