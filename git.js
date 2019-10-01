@@ -1,4 +1,4 @@
-$(document).ready(function() {
-    $('li').parent().css('list-style-type', 'none')
-    $('p:last').siblings().css({ 'border': "2px solid darkgray", 'background-color': 'darkblue' })
-})
+var text = "burada or orrr orxa orxan ooooor  elementttler varr";
+var ifade = new RegExp("or+", "gi")
+var tst = text.match(ifade)
+document.write(text + "<br/><br/>" + tst)
