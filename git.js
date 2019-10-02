@@ -1,4 +1,5 @@
-var text = "burada or orrr orxa orxan ooooor  elementttler varr";
-var ifade = new RegExp("or+", "gi")
-var tst = text.match(ifade)
-document.write(text + "<br/><br/>" + tst)
+var text = "Regexp menasi js jss jsss j nedir? ve JavaScript ya tekrarla";
+document.write(text + "<br/><br/>");
+var ifade = new RegExp("[menasi]");
+var son = text.match(ifade);
+document.write(son)
